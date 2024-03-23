@@ -12,7 +12,7 @@ Know more about stylus here : [Sylus](https://docs.arbitrum.io/stylus/stylus-gen
 
     > `sudo apt install build-essential`  ( This Will install essential cc compilers)
 3. Run : `RUSTFLAGS="-C link-args=-rdynamic" cargo install --force cargo-stylus` (LINUX) , For Windows please SET FLAGS !
-4. Run : rustup target add wasm32-unknown-unknown
+4. Run : `rustup target add wasm32-unknown-unknown`
 5. Will Install Solc ( Solidity Compiler )
     > `sudo add-apt-repository ppa:ethereum/ethereum`
 
