@@ -1,0 +1,17 @@
+{
+  "name": "stylus-nextjs-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Deosaju/ChainFileV1.git",
+  "author": "Deo saju <deosaju2260@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/chainfile-frontend"
+    ]
+  },
+  "scripts": {
+    "start": "yarn workspace chainfile-frontend dev"
+  }
+}
