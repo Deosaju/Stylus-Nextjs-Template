@@ -8,7 +8,7 @@ export default function SetNumber() {
             onClick={() =>
                 writeContract({
                     abi,
-                    address: '0xBe702231908AB2dbFc156e18Bab6c57285883694',
+                    address: process.env.CONTRACT_DEPLOYMENT_ADDRESS,
                     functionName: 'setNumber',
                     args: [
                         '1',

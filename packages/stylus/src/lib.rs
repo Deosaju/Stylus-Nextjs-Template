@@ -31,7 +31,7 @@ impl Escrow {
         Ok(self.owner.get())
     }
 
-    pub fn new(&mut self, buyer: Address, seller: Address, escrow_amount: U256) {
+    pub fn initialize(&mut self, buyer: Address, seller: Address, escrow_amount: U256) {
         let owner = msg::sender();
         self.owner.set(owner);
         self.buyer.set(buyer);
