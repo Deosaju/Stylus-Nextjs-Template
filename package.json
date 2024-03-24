@@ -8,10 +8,10 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/chainfile-frontend"
+      "packages/nextjs"
     ]
   },
   "scripts": {
-    "start": "yarn workspace chainfile-frontend dev"
+    "start": "yarn workspace nextjs dev"
   }
 }
